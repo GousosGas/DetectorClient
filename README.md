@@ -1,7 +1,7 @@
 This is my solution for the device detector challenge.
 
 ## Userstories
-* As User I want to retrieve my device's OS and type .
+* As User I want to find my device's OS and type .
  * As an Admin I want to receive the user's device name, Operating system and Public Ip
  * As an Admin I want to store those information in my server
  
