@@ -1,10 +1,9 @@
 This is my solution for the device detector challenge.
 
-## Usecase
-* A user clicks the button 'Scan' to scan his system.
- * When the broswer scan is finished a POST request will be sent the http://devicedetector.test/device-info
- with users public ip, device and OS information.
- * The user sees the results 
+## Userstories
+* As User I want to retrieve my device's OS and type .
+ * As an Admin I want to receive the user's device name, Operating system and Public Ip
+ * As an Admin I want to store those information in my server
  
 
 ## Stack
