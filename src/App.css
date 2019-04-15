@@ -1,0 +1,153 @@
+/*#root {
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}*/
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn-group-margin-top {
+    margin-top: 35px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.social-icon:link,
+.social-icon:visited,
+.social-icon:active,
+.social-icon:focus,
+.social-icon:hover {
+    cursor: pointer;
+    color: #00B5AD;
+}
+
+a {
+    color: white !important;
+}
+
+.logo >h1 {
+    color: white;
+    font-weight: 900;
+}
+
+@media (min-width: 320px) {
+
+    .ui.grid > .row > [class*="left aligned"].column.column {
+        width: 100% !important;
+    }
+
+    .ui[class*="vertically divided"].grid>.row:first-child>.column {
+        margin-top: 24px!important;
+        width: 100%!important;
+    }
+
+    .ui.vertical.divider {
+        display: none;
+    }
+
+    .ui.dimmer {
+        height: 135%!important;
+    }
+
+    .logo {
+        margin-top: 5% !important;
+    }
+
+}
+
+@media (min-width: 480px) {
+    .ui.dimmer {
+        height: 115%!important;
+    }
+}
+
+@media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    ui.grid > .row > [class*="left aligned"].column.column {
+        width: 50% !important;
+    }
+
+    .ui[class*="vertically divided"].grid>.row:first-child>.column {
+        margin-top: 24px!important;
+        width: 50%!important;
+    }
+
+
+    .ui.vertical.divider {
+        display: unset;
+    }
+    .ui.dimmer {
+        height: 100%!important;
+    }
+}
+
+@media (min-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    .logo {
+        color: white;
+        font-weight: 900;
+        margin-top: 10% !important;
+    }
+    .ui.grid > .row > [class*="left aligned"].column.column {
+        width: 50% !important;
+    }
+
+    .ui[class*="vertically divided"].grid>.row:first-child>.column {
+        margin-top: 24px!important;
+        width: 50%!important;
+    }
+
+
+    .ui.vertical.divider {
+        display: unset;
+    }
+
+    .logo >h1 {
+        font-size: 42px!important;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+}
