@@ -1,13 +1,13 @@
 This is my solution for the device detector challenge.
 
-##Usecase
+## Usecase
 * A user clicks the button 'Scan' to scan his system.
  * When the broswer scan is finished a POST request will be sent the http://devicedetector.test/device-info
  with users public ip, device and OS information.
  * The user sees the results 
  
 
-##Stack
+## Stack
 
 - react 16.8.6
 - axios 0.18.0
