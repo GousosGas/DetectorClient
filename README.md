@@ -18,6 +18,9 @@ This is my solution for the device detector challenge.
 
 In the project directory, you can run:
 
+### `npm install`
+This command installs the dependencies of the app
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
