@@ -1,4 +1,4 @@
-This is my solution for the device detector challenge.
+This is a web app that detects client's information about his device and OS
 
 ## Userstories
 * As User I want to find my device's OS and type .
